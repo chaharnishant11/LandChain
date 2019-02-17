@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>LandChain</title>
+</head>
+<body>
+	<nav class="navbar navbar-dark bg-light">
+  		<a class="navbar-brand">LandChain</a>
+	  	<form class="form-inline" id="login-form">
+	    	<input class="form-control mr-sm-2" type="text" name="id" placeholder="User ID" />
+	    	<input class="form-control mr-sm-2" type="password" name="pass" placeholder="Enter OTP" />
+	    	<button class="btn btn-success my-2 my-sm-0" id="login-btn" type="button">Get OTP</button>
+	  	</form>
+	</nav>
+	<div class="container-fluid fill">
+		<div class="row h-100 align-items-center">
+			<div class="col-12 col-sm-6 p-0">
+				<div class="col-8 m-auto p-0">
+					<h1>Welcome to LandChain</h1>
+					<p class="lead">
+						India's first Block Chain Based Land Registry Management System.
+						<ul>
+							<li>Improves Transparency</li>
+							<li>Prevents Fraudulency</li>
+							<li>Reduces Corruption</li>
+						</ul>
+					</p>
+				</div>
+			</div>	
+			<div class="col-12 col-sm-6 p-0">
+				<div class="col-8 m-auto p-0">
+					<h1>Register</h1>
+					<form id="create-user-form" novalidate class="needs-validation">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Name" required />
+                            <div class="invalid-feedback">
+                                Please provide a Valid Name.
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="aadhar" placeholder="Name" required />
+                            <div class="invalid-feedback">
+                                Please add a Valid Aadhar Number.
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="mobile" class="form-control start" placeholder="Registered Mobile Number" required/>
+                            <div class="invalid-feedback">
+                                Please provide a Valid Mobile Number.
+                            </div>
+                        </div>
+                        <input type="submit" id="create-user-btn" class="btn btn-primary float-right mt-2" value="Submit Details" />
+                    </form>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
