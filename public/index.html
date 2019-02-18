@@ -17,7 +17,7 @@
 	  	<form class="form-inline" id="login-form">
 	    	<input class="form-control mr-sm-2" type="text" id="id" placeholder="User ID" />
 	    	<input class="form-control mr-sm-2" type="password" id="password" placeholder="Password" />
-	    	<button class="btn btn-success my-2 my-sm-0" id="login-btn" type="button">Login</button>
+	    	<input type="submit" id="login-btn" class="btn btn-success my-2 my-sm-0" value="Login" />
 	  	</form>
 	</nav>
 	<div class="container-fluid h-100" style="padding:10%">
@@ -38,7 +38,7 @@
 			<div class="col-12 col-sm-6 p-0">
 				<div class="col-8 m-auto p-0">
 					<h1>Register</h1>
-					<form id="create-user-form" id="register-form" novalidate class="needs-validation">
+					<form id="register-form" id="register-form" novalidate class="needs-validation">
                         <div class="form-group">
                             <input type="text" class="form-control" id="name" placeholder="Name" required />
                             <div class="invalid-feedback">
@@ -46,13 +46,13 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="aadhar" placeholder="Aadhar/DIN Number" required />
+                            <input type="text" class="form-control" id="id" placeholder="Aadhar/DIN Number" required />
                             <div class="invalid-feedback">
                                 Please add a Valid Aadhar/DIN Number.
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="text" id="mobile" class="form-control start" placeholder="Registered Mobile Number" required/>
+                            <input type="text" id="number" class="form-control start" placeholder="Registered Mobile Number" required/>
                             <div class="invalid-feedback">
                                 Please provide a Valid Mobile Number.
                             </div>
