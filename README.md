@@ -1,6 +1,5 @@
 # LandChain
-In the modern day era, where any official work involves immense amount of corruption and still so many chances of deceit and forfeiture, we are trying to build a safe, secure and well-designed blockchain based system for realestate in India. A great chain of transactions taking account of any changes made in any piece of land can actually save the people from several thefts
-and fraud cases.
+In the modern day era, where any official work involves immense amount of corruption and still so many chances of deceit and forfeiture, we are trying to build a safe, secure and well-designed blockchain based system for realestate in India. A great chain of transactions taking account of any changes made in any piece of land can actually save the people from several thefts and fraud cases.
 
 ## MAIN PROBLEMS: 
 * fraud, forgery and selling of wrong land to the buyers.
